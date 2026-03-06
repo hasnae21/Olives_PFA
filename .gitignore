@@ -1,0 +1,19 @@
+# Ignorer les dossiers d'images
+dataset/
+test/
+treated/
+untreated/
+augmented/
+augmented_split/
+
+# Ignorer environnement python
+.venv/
+
+# Ignorer fichiers images
+*.jpg
+*.jpeg
+*.png
+
+# Ignorer fichiers temporaires
+__pycache__/
+*.pyc
