@@ -9,7 +9,6 @@ venv/
 env/
 
 # YOLO outputs
-runs/
 augmented_split/
 augmented/
 
