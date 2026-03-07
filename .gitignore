@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# YOLO outputs
+runs/
+augmented_split/
+augmented/
+
+# Dataset folders (too large for git)
+dataset/
+data/
+test/
+treated/
+untreated/
+
+# Model weights (too large, download separately)
+*.pt
+!yolov8m.pt
+
+# Image outputs
+*.jpg
+*.jpeg
+*.png
+!test_preview.jpeg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

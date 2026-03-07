@@ -1,0 +1,7 @@
+path: c:\Users\louay\Downloads\olives_2\augmented_split
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 1
+names: ['olive']
