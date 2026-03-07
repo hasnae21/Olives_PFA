@@ -29,6 +29,12 @@ untreated/
 *.png
 !test_preview.jpeg
 
+# Keep all training runs tracked
+!runs/
+!runs/**
+!**/runs/
+!**/runs/**
+
 # IDE
 .vscode/
 .idea/
