@@ -4,9 +4,9 @@ from pathlib import Path
 import random
 
 # Settings
-augmented_image_folder = r'c:\Users\louay\Downloads\olives_2\augmented\image_augmented'
-augmented_label_folder = r'c:\Users\louay\Downloads\olives_2\augmented\label_augmented'
-output_base_folder = r'c:\Users\louay\Downloads\olives_2\augmented_split'
+augmented_image_folder = r'C:\Users\louay\Downloads\olives_2\treated\image'
+augmented_label_folder = r'c:\Users\louay\Downloads\olives_2\treated\label'
+output_base_folder = r'c:\Users\louay\Downloads\olives_2\test_split'
 
 # Train/Val/Test split
 TRAIN_RATIO = 0.70
