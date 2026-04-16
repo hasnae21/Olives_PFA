@@ -1,7 +1,0 @@
-path: c:/Users/louay/Downloads/olives_2/dataset/augmented_split
-train: train/images
-val: valid/images
-test: test/images
-
-nc: 4
-names: ['Maturity_1', 'Maturity_2', 'Maturity_3', 'Maturity_4']

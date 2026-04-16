@@ -7,7 +7,7 @@ def train():
     model = YOLO('yolov8m.pt')
 
     # 2. Resolve data.yaml path relative to this script (avoids working-directory issues)
-    data_path = r"C:/Users/louay/Downloads/olives_2/dataset/augmented_split/data.yaml"
+    data_path = r"C:/Users/louay/Downloads/olives_2/dataset/test_split/data.yaml"
 
     # 3. Pick device: use CUDA if available, fall back to CPU
     device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
