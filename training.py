@@ -17,7 +17,7 @@ def train():
         data=data_path,
         epochs=100,
         rect=False,       # Use rectangular training (faster on non-square images)
-        imgsz=1280,
+        imgsz=640,
         device=device,   # RTX 3060 GPU (falls back to CPU if unavailable)
         workers=2,       # Keep low on Windows to avoid multiprocessing issues
         batch=16,
