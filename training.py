@@ -41,7 +41,7 @@ def compute_class_weights(data_yaml_path):
 
 
 def train():
-    model = YOLO('yolov8m.pt')
+    model = YOLO('yolo26n.pt')
 
     data_path = r"C:/Users/louay/Downloads/olives_2/dataset/split/data.yaml"
     device = 'cuda:0' if torch.cuda.is_available() else 'cpu'
@@ -60,7 +60,7 @@ def train():
     model.train(
         data=data_path,
         epochs=100,
-        imgsz=1240,
+        imgsz=640,
         device=device,
         workers=2,
         batch=16,
