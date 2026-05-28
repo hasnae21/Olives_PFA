@@ -1,0 +1,7 @@
+model,run,imgsz,imgsz_group,best_epoch,train/box_loss,train/cls_loss,train/dfl_loss,metrics/precision(B),metrics/recall(B),metrics/mAP50(B),metrics/mAP50-95(B),val/box_loss,val/cls_loss,val/dfl_loss,source_csv
+yolov8m,train8,1280,1280,87,1.02137,1.41333,1.34462,0.831,0.87786,0.89035,0.63808,1.07518,1.52717,1.5199,runs/detect/train8/results.csv
+yolo26s,train10,1280,1280,37,1.17998,1.65625,0.00685,0.89126,0.81386,0.91451,0.6377,1.10932,1.32836,0.01061,runs/detect/train10/results.csv
+yolo26n,train11,1280,1280,58,1.07995,1.51574,0.00634,0.79415,0.83793,0.85508,0.6114,1.07742,1.5276,0.01038,runs/detect/train11/results.csv
+yolo11m,train14,1280,1280,91,1.03093,1.45336,1.4842,0.77088,0.85273,0.86853,0.61727,1.05354,1.5198,1.53385,runs/detect/train14/results.csv
+yolo11s,train15,1280,1280,66,1.09595,1.6747,1.36819,0.86415,0.838,0.88516,0.62791,1.08129,1.64254,1.54629,runs/detect/train15/results.csv
+yolo11n,train16,1280,1280,40,1.09209,2.00718,1.08361,0.84442,0.92835,0.94527,0.66431,1.09083,1.56464,1.09866,runs/detect/train16/results.csv
