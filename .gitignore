@@ -20,13 +20,13 @@ treated/
 untreated/
 
 # Model weights (too large, download separately)
-*.pt
+.pt
 !yolov8m.pt
 
 # Image outputs
-*.jpg
-*.jpeg
-*.png
+.jpg
+.jpeg
+.png
 !test_preview.jpeg
 
 # IDE
