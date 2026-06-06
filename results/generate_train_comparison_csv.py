@@ -7,8 +7,8 @@ import pandas as pd
 import yaml
 
 BASE_DIR = Path("runs") / "detect"
-TRAIN_RANGE = range(7, 20)
-OUTPUT_ALL = Path("train_comparison_train7_to_train19.csv")
+TRAIN_RANGE = range(7, 25)
+OUTPUT_ALL = Path("train_comparison_train7_to_train24.csv")
 OUTPUT_640 = Path("train_comparison_640.csv")
 OUTPUT_1280 = Path("train_comparison_1280.csv")
 
